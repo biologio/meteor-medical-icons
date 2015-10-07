@@ -12,9 +12,9 @@ Package.describe({
 Package.onUse(function(api) {
     api.versionsFrom('1.0');
     api.addFiles('wfmi-style.css', 'client');
-    api.addFiles('fonts/webfont-medical-icons.eot', 'client');
-    api.addFiles('fonts/webfont-medical-icons.svg', 'client');
-    api.addFiles('fonts/webfont-medical-icons.ttf', 'client');
-    api.addFiles('fonts/webfont-medical-icons.woff', 'client');
+    api.addAssets('fonts/webfont-medical-icons.eot', 'client');
+    api.addAssets('fonts/webfont-medical-icons.svg', 'client');
+    api.addAssets('fonts/webfont-medical-icons.ttf', 'client');
+    api.addAssets('fonts/webfont-medical-icons.woff', 'client');
 });
 
